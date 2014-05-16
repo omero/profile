@@ -1,0 +1,111 @@
+h1{
+	padding-left: 46%;
+	font-family: Arial, Arial, sans-serif;
+	text-shadow: 2px 2px #696969;
+} 
+
+body{
+	position: absolute;
+	background-color: #eaeaea;
+}
+.logo{
+
+	margin: 11px 0px 14px 32px;
+}
+
+.border{
+
+	padding: 0px 0px 0px 0px;
+	width: auto;
+	height: 4px;
+	background-color: #000BD3
+}
+
+.background{
+	opacity: 0.8;
+	width: 1424px;
+	height: 600px;
+}
+
+.circular {
+	position: relative;
+	display: block;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+	padding: 0px 0px 0px 0px;
+	width: 280px;
+	height: 280px;
+	border-radius: 150px;
+	border-radius: 150px;
+	border-radius: 150px;
+	}
+
+.circular-bg {
+	position:absolute;
+	left:550px;
+	top: 150px;
+	z-index: 1;
+	padding: 0px 0px 0px 0px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	border-radius: 150px;
+	border-radius: 150px;
+	background-color: #eaeaea;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	}
+
+.name {
+	font-family: Arial, Arial, sans-serif;
+	color: #eaeaea;
+	position: absolute;
+	top: 480px;
+	left: 450px;
+	z-index: 1;
+	display: block;
+	font-size: 36;
+}
+
+.bio {
+	font-family: Arial, Arial, sans-serif;
+	font-size: 20;
+	float: left;
+	width: auto;
+	height: auto;
+	display: block;
+	background-color: #eaeaea;
+	padding: 15px;
+}
+
+.twitter-logo {
+	display: block;
+	height: 120px;
+	width: auto;
+	position: relative;
+	top: 0px;
+	left: 180px;
+}
+
+.twitter {
+	display: block;
+	position: absolute;
+	top: 1070px;
+	left: 310px;
+} 
+
+.gmail-logo {
+	display: block;
+	height: 110px;
+	width: auto;
+	position: relative;
+	top: -120px;
+	left: 740px;
+}
+
+.gmail {
+	display: block;
+	position: absolute;
+	top: 1070px;
+	left: 870px;
+} 
