@@ -1,33 +1,36 @@
-h1{
-	padding-left: 46%;
-	font-family: Arial, Arial, sans-serif;
-	text-shadow: 2px 2px #696969;
+table {
+	height: 120px;
+	width: auto;
+}
+
+h1 {
+	text-align: center;
+	font-family: Helvetica;
+	color: #eaeaea;
 } 
 
-body{
+body {
 	position: absolute;
 	background-color: #eaeaea;
 }
-.logo{
+#logo {
 
 	margin: 11px 0px 14px 32px;
 }
 
-.border{
-
-	padding: 0px 0px 0px 0px;
+#border {
 	width: auto;
 	height: 4px;
 	background-color: #000BD3
 }
 
-.background{
+#background {
 	opacity: 0.8;
 	width: 1424px;
 	height: 600px;
 }
 
-.circular {
+#circular {
 	position: relative;
 	display: block;
 	left: 10px;
@@ -41,7 +44,7 @@ body{
 	border-radius: 150px;
 	}
 
-.circular-bg {
+#circular-bg {
 	position:absolute;
 	left:550px;
 	top: 150px;
@@ -56,8 +59,8 @@ body{
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	}
 
-.name {
-	font-family: Arial, Arial, sans-serif;
+#name {
+	font-family: Helvetica;
 	color: #eaeaea;
 	position: absolute;
 	top: 480px;
@@ -67,45 +70,55 @@ body{
 	font-size: 36;
 }
 
-.bio {
-	font-family: Arial, Arial, sans-serif;
-	font-size: 20;
+#bio {
+	font-family: Helvetica;
+	font-size: 18;
 	float: left;
-	width: auto;
+	width: 50%;
 	height: auto;
 	display: block;
 	background-color: #eaeaea;
 	padding: 15px;
 }
 
-.twitter-logo {
-	display: block;
+.social-logo {
+	display: inline-block;
 	height: 120px;
 	width: auto;
-	position: relative;
-	top: 0px;
-	left: 180px;
 }
 
-.twitter {
-	display: block;
-	position: absolute;
-	top: 1070px;
-	left: 310px;
+.usernames {
+	font-family: Helvetica;
 } 
 
-.gmail-logo {
-	display: block;
+#gmail-logo {
 	height: 110px;
 	width: auto;
-	position: relative;
-	top: -120px;
-	left: 740px;
 }
 
-.gmail {
+#contact {
+	font-family: Helvetica;
+	font-size: 20;
+	float: right;
+	width: 45%;
+	height: auto;
 	display: block;
-	position: absolute;
-	top: 1070px;
-	left: 870px;
-} 
+	background-color: #eaeaea;
+	padding: 15px;
+}
+
+.header {
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	background-color: #000BD3;
+	height: 40px;
+	width: auto;
+	border-radius: 10px;
+}
+
+.fixed-view {
+	position: fixed;
+}
+
+a:hover {
+	opacity: 0.8;
+}
