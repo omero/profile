@@ -1,4 +1,4 @@
-Second commit: 
+Changelog:
 
 El repo contiene la version final de mi personal profile page para el grupo Jumpstart MTY. Espero que sea de su agrado y dejo un poco de changelog entre la prprimera version y la actual:
 
@@ -7,4 +7,4 @@ El repo contiene la version final de mi personal profile page para el grupo Jump
 * Estructura más ordenada para que se aprecie un mejor diseño.
 * Efectos visuales menores como sombras, bordes redondos entre otros.
 
-Espero que les guste y cualquier cosa estoy para servirles en alan.gvaldez@gmail.com"
+Espero que les guste y cualquier cosa estoy para servirles en alan.gvaldez@gmail.com
