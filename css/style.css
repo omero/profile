@@ -1,3 +1,8 @@
+header {
+	height: auto;
+	width: auto;
+}
+
 table {
 	height: 120px;
 	width: auto;
@@ -10,23 +15,24 @@ h1 {
 } 
 
 body {
+	margin: 0px 0px 0px 0px;
 	position: absolute;
 	background-color: #eaeaea;
 }
 #logo {
-
 	margin: 11px 0px 14px 32px;
 }
 
 #border {
-	width: auto;
+	width: 1440px;
 	height: 4px;
 	background-color: #000BD3
 }
 
 #background {
+	margin-top: 73px;
 	opacity: 0.8;
-	width: 1424px;
+	width: 1440px;
 	height: 600px;
 }
 
@@ -116,6 +122,7 @@ body {
 }
 
 .fixed-view {
+	background-color: #eaeaea;
 	position: fixed;
 }
 
